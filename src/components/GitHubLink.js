@@ -9,7 +9,7 @@ export default function GitHubLink() {
       isExternal
       pt="8"
       color="gray.400"
-      _hover={{color: "#6e5494"}}
+      _hover={{color: "#6e5494", fontWeight: "semibold"}}
     >
       <Text>view code here:
         <IconButton
