@@ -38,8 +38,8 @@ function App() {
         onClick={toggleColorMode}
       />
       <Heading
-        pt="8"
-        pb="8"
+        mt={[0, "3rem !important"]}
+        mb={[0, "3rem !important"]}
         fontWeight="extrabold"
         size="2xl"
         bgGradient="linear(to-r, pink.500, pink.300, blue.500)"
