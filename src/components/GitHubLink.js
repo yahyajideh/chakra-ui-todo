@@ -7,7 +7,7 @@ export default function GitHubLink() {
     <Link
       href="https://github.com/yahyajideh/chakra-ui-todo"
       isExternal
-      mt={[0, "2rem !important"]}
+      pt="8"
       color="gray.400"
       _hover={{color: "#6e5494"}}
     >
