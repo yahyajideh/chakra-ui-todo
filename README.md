@@ -1,6 +1,6 @@
-# A Simple To-Do App using Chakra-UI
+# To-Do App using Chakra-UI
 
-A simple to-do application created to test Chakra-UI. [View it hereCreate React App](https://chakra-ui-todo.netlify.app/).
+A simple to-do application (utilizing local storage) created to test Chakra-UI. [View it hereCreate React App](https://chakra-ui-todo.netlify.app/).
 
 <p align="center">
   <a href="https://app.netlify.com/sites/chakra-ui-todo/deploys">
