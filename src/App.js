@@ -4,6 +4,7 @@ import AddTodo from './components/AddTodo';
 import { VStack, IconButton, useColorMode } from '@chakra-ui/react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
+import GitHubLink from './components/GitHubLink';
 
 function App() {
   const [todos, setTodos] = useState(
@@ -48,6 +49,7 @@ function App() {
       </Heading>
       <TodoList todos={todos} deleteTodo={deleteTodo} />
       <AddTodo addTodo={addTodo} />
+      <GitHubLink />
     </VStack>
   );
 }
