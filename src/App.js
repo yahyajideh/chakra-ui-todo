@@ -44,7 +44,7 @@ function App() {
         bgGradient="linear(to-r, pink.500, pink.300, blue.500)"
         bgClip="text"
       >
-        Todo Application
+        Things Todo!
       </Heading>
       <TodoList todos={todos} deleteTodo={deleteTodo} />
       <AddTodo addTodo={addTodo} />
